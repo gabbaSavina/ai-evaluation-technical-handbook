@@ -20,12 +20,12 @@ Human feedback is important because it:
 
 Not all feedback is equally valuable. High-quality human feedback is essential for improving AI systems and ensuring that model outputs align with human expectations. Effective feedback should be consistent, accurate, and focused on relevant aspects of the task.
 
-    - **Consistency**: Feedback should apply the same standards accors similar tasks and responses. Consistent evaluationshel reliable model training.
-    - **Accuaracy**: Feedback should correctly reflectthe quality of the output. Inaccurate evaluationscanlead to poor model behavior.
-    - **Objectivity**: Evaluators should minimize personal preferences and focus on the established guidelines and quality criteria.
-    - **Clarity**: Feedback should be especific and easy to understand. Clear explanations make it easier to identify strengths and wealnesses in model outputs.
-    - **Relevance**: Evaluations should foculs on aspects that are directly related to the user's request and the task requirements.
-    - **Completeness**: Good feedback considers multiple dimensionsof quality, such as accuracy, helpfulness, clarity and safety.
+    **Consistency**: Feedback should apply the same standards accors similar tasks and responses. Consistent evaluationshel reliable model training.
+    **Accuaracy**: Feedback should correctly reflectthe quality of the output. Inaccurate evaluationscanlead to poor model behavior.
+    **Objectivity**: Evaluators should minimize personal preferences and focus on the established guidelines and quality criteria.
+    **Clarity**: Feedback should be especific and easy to understand. Clear explanations make it easier to identify strengths and wealnesses in model outputs.
+    **Relevance**: Evaluations should foculs on aspects that are directly related to the user's request and the task requirements.
+    **Completeness**: Good feedback considers multiple dimensionsof quality, such as accuracy, helpfulness, clarity and safety.
 
 ```
 | Characteristic | Description |
@@ -45,13 +45,13 @@ Not all feedback is equally valuable. High-quality human feedback is essential f
 
 ## The RLHF Pipeline
 
-    ### SupervisedFine-Tuning(SFT)
+### SupervisedFine-Tuning(SFT)
 
-    ### Preference Data Collection
+### Preference Data Collection
 
-    ### Reward Modeling
+### Reward Modeling
 
-    ### Reinforcement Learnig
+### Reinforcement Learnig
 
 
 ## Benefits of RLHF
