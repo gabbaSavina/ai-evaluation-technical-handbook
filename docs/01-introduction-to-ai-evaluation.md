@@ -44,10 +44,13 @@ The improvement cycle generally follows a phased, repeatable structure:
  3. **Evaluation & Validation** – Assess the model against defined metrics, benchmarks, and real-world scenarios.
  4. **Deployment & Monitoring** – Release the model into production and continuously monitor its performance, reliability, and user feedback.
 
-```text
-Data Collection → Training → Evaluation → Deployment
-       ↑                                  ↓
-       ←──── Continuous Improvement ──────
+```mermaid
+flowchart LR
+    A[Data Collection] --> B[Training]
+    B --> C[Evaluation]
+    C --> D[Deployment]
+    D --> E[Continuous Improvement]
+    E --> A
 ```
 
 The results of each stage provide valuable insights that can be used to further refine the model, creating a continuous feedback loop of improvement.
